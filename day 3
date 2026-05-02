@@ -72,5 +72,19 @@ int main() {
     for(int i =n; i>=1; i--){
         fact = fact *i;
     }
+//problem 8
+#include <iostream>
+using namespace std;
+
+int main() {
+    int password;
+    
+    do{
+        cout << "enter your password here...";
+        cin >> password;
+    } while(password!=1234);
+    
+    cout << "phone unlocked...";
+    }
     cout << fact;
 }
