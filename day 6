@@ -53,3 +53,81 @@ int main() {
     setTemprature(20.5);
     setTemprature("ECO");
 }
+// Problem -- 4
+// Pointers 
+// Declaration ,Initialization, Arithmetic operation through Pointer
+
+// int main() {
+//     int a = 10;
+//     int *ptr1 = &a;
+    
+//     int b = 20;
+//     int *ptr2 = &b;
+    
+//     int c = a + b;
+//     int c = *ptr1 + *ptr2;
+//     cout << c;
+// }
+
+// Problem -- 5
+// Swapping of 2 variable's value using pointers and using functions
+
+// void swapNumber(int *ptr1 , int *ptr2){
+//     int temp = *ptr1;
+//     *ptr1 = *ptr2;
+//     *ptr2 = temp;
+// }
+
+// int main() {
+//     int a, b;
+//     cin >> a;
+//     cin >> b;
+//     swapNumber(&a, &b);
+//     cout << a << " " << b;
+// }
+
+// Problem -- 6
+// Classes / Objects 
+
+// class Student{
+
+// public:
+//     string name;
+//     int age;
+
+// void introduce(){
+//     cout << "Hi there, this person name is " << name << " and his age is " << age << "\n";
+//     }
+// };
+
+// int main() {
+//     Student s1, s2;
+//     s1.name = "Abhishek";
+//     s1.age = 24;
+//     s2.name = "Rahul";
+//     s2.age = 23;
+//     s1.introduce();
+//     s2.introduce();
+// }
+
+
+// Problem -- 7
+// Access Specifier
+// types -- 7.1 -- public
+//          7.2 -- private
+//          7.3 -- protected
+
+
+// 7.1 -- Public 
+
+class publicPark{
+public:
+    void enter() {
+        cout << "Anyone can enter in the park...";
+    }
+};
+int main() {
+    publicPark p;
+    p.enter();
+    
+}
